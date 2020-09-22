@@ -41,3 +41,17 @@ C:\Users\v-mnjeri\Desktop\TestAppConfig\obj\Debug\netcoreapp3.1\staticwebassets\
 C:\Users\v-mnjeri\Desktop\TestAppConfig\obj\Debug\netcoreapp3.1\TestAppConfig.dll
 C:\Users\v-mnjeri\Desktop\TestAppConfig\obj\Debug\netcoreapp3.1\TestAppConfig.pdb
 C:\Users\v-mnjeri\Desktop\TestAppConfig\obj\Debug\netcoreapp3.1\TestAppConfig.genruntimeconfig.cache
+C:\Users\v-mnjeri\Desktop\TestAppConfig\obj\Debug\netcoreapp3.1\TestAppConfig.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\v-mnjeri\Desktop\TestAppConfig\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\v-mnjeri\Desktop\TestAppConfig\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\v-mnjeri\Desktop\TestAppConfig\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\v-mnjeri\Desktop\TestAppConfig\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\v-mnjeri\Desktop\TestAppConfig\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\v-mnjeri\Desktop\TestAppConfig\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\v-mnjeri\Desktop\TestAppConfig\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\v-mnjeri\Desktop\TestAppConfig\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\v-mnjeri\Desktop\TestAppConfig\bin\Debug\netcoreapp3.1\Microsoft.FeatureManagement.dll
+C:\Users\v-mnjeri\Desktop\TestAppConfig\bin\Debug\netcoreapp3.1\Microsoft.FeatureManagement.AspNetCore.dll
+C:\Users\v-mnjeri\Desktop\TestAppConfig\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\v-mnjeri\Desktop\TestAppConfig\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\v-mnjeri\Desktop\TestAppConfig\obj\Debug\netcoreapp3.1\Razor\Views\Beta\index.cshtml.g.cs

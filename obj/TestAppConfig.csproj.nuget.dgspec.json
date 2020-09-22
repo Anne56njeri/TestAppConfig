@@ -40,7 +40,11 @@
           "dependencies": {
             "Microsoft.Azure.AppConfiguration.AspNetCore": {
               "target": "Package",
-              "version": "[3.0.2, )"
+              "version": "[4.0.0, )"
+            },
+            "Microsoft.FeatureManagement.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [

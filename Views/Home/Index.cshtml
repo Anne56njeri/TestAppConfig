@@ -3,13 +3,14 @@
 
 <style>
     body {
-        background-color: @Configuration["TestApp:Settings:BackgroundColor"]
+        background-color:@ViewData["BackgroundColor"]
     }
     h1 {
-        color: @Configuration["TestApp:Settings:FontColor"];
-        font-size: @Configuration["TestApp:Settings:FontSize"]px;
+        color: @ViewData["FontColor"];
+        font-size: @ViewData["FontSize"]px;
     }
 </style>
-
-<h1>@Configuration["TestApp:Settings:Message"]</h1>
-<h2>@Configuration["TestApp:Settings:Messages"]</h2>
+<head>Index View</head>
+<body>
+    <h1>@ViewData["Message"]</h1>
+</body>
