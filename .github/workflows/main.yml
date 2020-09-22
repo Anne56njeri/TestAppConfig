@@ -22,23 +22,16 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-      - name: Azure App Configuration Sync,
-        uses: Azure/AppConfiguration-Sync@v1.1.0
+     # checkout done so that files in the repo can be read by the sync 
+      - uses: actions/checkout@v1 
+      - uses: azure/appconfiguration-sync@v1 
         with: 
           configurationFile: 'appsettings.json' 
           format: 'json' 
-          # Replace <ConnectionString> with the name of the secret in your                        
+          # Replace <ConnectionString> with the name of the secret in your 
           # repository 
-          connectionString: ${{ secrets.APPCONFIG_CONNECTIONSTRING }} 
+          connectionString: ${{ secrets.APPCONFIG_CONNECTIONSTRING }}  
           separator: ':' 
+          label: 'Label' 
+          prefix: 'Prefix:' 
+          strict: true
