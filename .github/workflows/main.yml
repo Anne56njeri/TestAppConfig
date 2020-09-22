@@ -33,5 +33,5 @@ jobs:
           connectionString: ${{ secrets.APPCONFIG_CONNECTIONSTRING }}  
           separator: ':' 
           label: 'Label' 
-          prefix: 'Prefix:' 
+          
           strict: true
